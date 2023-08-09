@@ -1,9 +1,10 @@
 
 // CharactersList.js
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
-import './character.css'
+import { Link } from 'react-router-dom';
+
+// import './character.css'
 
 function CharactersList() {
   const [characters, setCharacters] = useState([]);
@@ -12,11 +13,12 @@ function CharactersList() {
     axios.get('https://rickandmortyapi.com/api/character')
       .then((response) => setCharacters(response.data.results))
       .catch((error) => console.log(error));
-  }, []);
+      /*console.log(characters); */
+}, []);
 
   return (
     <div>
-      <h1>Lista de Personajes</h1>
+      <h1 className="ttl-hm">Lista de Personajes</h1>
       <ul className="grid-char">
         {characters.map((character) => (
           <li key={character.id}>

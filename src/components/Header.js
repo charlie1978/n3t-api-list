@@ -1,18 +1,16 @@
 // components/Header.js
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; // eslint-disable-next-line
+import { GiHouse } from "react-icons/gi";
 
 function Header() {
   return (
     <header>
       <nav>
         <ul>
-          <li>
-            <Link to="/">HOME</Link>
-          </li>
-          <li>
-            {/* <Link to="/characters">Ver Lista de Personajes</Link> */}
-          </li>
+          <h1>
+            <Link to="/"> <GiHouse /> - HOME - <GiHouse /> </Link> 
+          </h1>
         </ul>
       </nav>
     </header>

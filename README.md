@@ -7,6 +7,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+# instala apletts google maps
+
+npm install @react-google-maps/api 
+npm install react-scripts@latest
+
+
+
 In the project directory, you can run:
 
 ### `npm start`

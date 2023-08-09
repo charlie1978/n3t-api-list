@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useHistory } from 'react-router-dom';
 import axios from 'axios';
+import "./character.css"
+// import "./Dogs"
 
 function CharacterDetails() {
   const { id } = useParams();
@@ -21,18 +23,25 @@ function CharacterDetails() {
   };
 
   return (
-    <div className="grid-per">
+    <div>
       <h1 className="tit-per">Detalles del Personaje</h1>
-      <img className="img-per" src={character.image} alt={character.name} />
-      <li className="dat-per">
+      <h2>{character.name}</h2>
+      
+      <section className="dat-per">
+      <img src={character.image} alt={character.name} className="img-per" />
+      <p>Id personaje: {character.id}</p>
       <p>Nombre: {character.name}</p>
       <p>Especie: {character.species}</p>
       <p>Estado: {character.status}</p>
+      <p>Tipo: {character.type}</p>
+      <p>Sexo:{character.gender}</p>
       <p>Creado: {character.created}</p>
-      {/*<p>Episodios: map({character.episode}<br/>)</p>*/}
-      </li>
+      <p>Url:{character.url}</p>
+      {/*<li><ul>Episodios:{character.episode}<br/></ul></li>*/}
+
+      </section>
       <button onClick={handleViewInNewPage}>Ver en otra pestaña</button>
-      <button onClick={handleViewInNewPage}>listar capitulos</button>
+      {/*<button onClick={handleViewInNewPage}>listar capitulos</button>*/}
     </div>
   );
 }

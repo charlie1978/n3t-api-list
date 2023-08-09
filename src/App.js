@@ -2,25 +2,40 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './components/Home';
-import CharactersList from './components/CharactersList';
-import CharacterDetails from './components/CharacterDetails';
-// import Cats from './components/Cats'; // Agrega esta importación
-// import Dogs from './components/Dogs'; // Agrega esta importación
+import Home from './pages/Home';
+import CharactersList from './pages/CharactersList';
+import CharacterDetails from './pages/CharacterDetails';
+import DogBreedsList from './pages/DogBreedsList';
+import BreedDetails from './pages/CatBreedDetails';
+import CatInfoComponent from './pages/CatInfoComponent';
+import Cats from './pages/Cats'; // Agrega esta importación
+import ArtistList from './pages/ArtistList'; // Agrega esta importación
+import ArtistSongs from './pages/ArtistSongs';
+import ArtistDetails from './pages/ArtistDetails'; // Agrega esta importación
+import Marvel from './pages/Marvel'
+// const apikey = 'AIzaSyASihGT9_uGTtA5b44KxU0R0uGD330yXp0';
+
 
 function App() {
   return (
     <Router>
       <div>
-        <Header /> <Link className="to-home" to="/"> </Link>{ /* Componente del encabezado */}
+        <Header /> <Link className="to-home" to="/"> </Link>{ /* Componente del encabezado */} 
         <main>
           <Route exact path="/" component={Home} />
           <Route exact path="/characters" component={CharactersList} />
           <Route path="/character/:id" component={CharacterDetails} />
-          {/*<Route path="/cats" component={Cats} /> {/* Agrega esta ruta * /}
-          <Route path="/dogs" component={Dogs} /> {/* Agrega esta ruta * /}*/}
+          <Route exact path="/DogBreedsList" component={DogBreedsList} />
+          <Route path="/BreedDetails/" component={BreedDetails} />
+          <Route path="/Cats" component={Cats} /> {/* Agrega esta ruta */}
+          <Route path="/Marvel" component={Marvel} /> {/* Agrega esta ruta */}
+          <Route path="/Component" component={CatInfoComponent} />  {/*Agrega esta ruta */}
+          <Route exact path="/ArtistSongs" component={ArtistSongs} /> {/* Agrega esta ruta */}
+          <Route exact path="/Artist" component={ArtistList} /> {/* Agrega esta ruta */}
+          <Route path="/artist/:artist.Id" component={ArtistDetails} />
         </main>
       </div>
+
     </Router>
   );
 }
@@ -32,10 +47,10 @@ export default App;
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './components/Home';
-import CharactersList from './components/CharactersList';
-import CharacterDetails from './components/CharacterDetails';
+import Header from './pages/Header';
+import Home from './pages/Home';
+import CharactersList from './pages/CharactersList';
+import CharacterDetails from './pages/CharacterDetails';
 
 function App() {
   return (
@@ -64,9 +79,9 @@ export default App;
 // App.js
 import React from 'react'; // eslint-disable-next-line
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Home from './components/Home';
-import CharactersList from './components/CharactersList';
-import CharacterDetails from './components/CharacterDetails';
+import Home from './pages/Home';
+import CharactersList from './pages/CharactersList';
+import CharacterDetails from './pages/CharacterDetails';
 
 function App() {
   return (
@@ -95,8 +110,8 @@ export default App;
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import CharactersList from './components/CharactersList';
-import CharacterDetails from './components/CharacterDetails';
+import CharactersList from './pages/CharactersList';
+import CharacterDetails from './pages/CharacterDetails';
 
 function App() {
   return (
