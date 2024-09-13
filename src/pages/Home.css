@@ -19,6 +19,10 @@ header {
     display: grid;
     align-items: start;
 }
+.img.text-img {
+    display: grid;
+    align-items: start;
+}
 .bdy {
     align-items: center;
     align-self: first baseline;
@@ -28,8 +32,12 @@ header {
     border-color: blueviolet;
     
 }
-.img {
-    align-content: center;
+.img.text-img {
+    scroll-margin-inline:inherit;
+    align-self: center;
+}
+.text-img {
+    scroll-margin-inline:inherit;
     align-self: center;
 }
 /*

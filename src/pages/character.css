@@ -19,13 +19,22 @@ body {
 
 .grid-char {
     display: flex;
-    border-color: 5px rgba(6, 172, 20, 0.767);
+    border-style: outset;
+    border: 5px rgba(10, 172, 20, 0.767);
+    background-color: #54a4c9;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: stretch;
     border-radius: 5px;
+
 }
+.grid-char img {
+     /* Opcionalmente, puedes agregar estilos para cada elemento li aquí */
+     border-style:groove;
+     border-color: rgb(202, 23, 23);
+     
+   }
 .img-per {
      margin: 15px;
      align-items: center;
@@ -49,6 +58,8 @@ body {
    
    .dog-card-grid li {
      /* Opcionalmente, puedes agregar estilos para cada elemento li aquí */
+     border-style: double;
+     border-color: black;
    }
    
 .dog-card-map{

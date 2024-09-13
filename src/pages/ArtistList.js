@@ -5,9 +5,6 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 
 
-
-
-
 const ArtistList = () => {
   const [art, setArtists] = useState([]);
 
@@ -17,7 +14,6 @@ const ArtistList = () => {
       .catch((error) => console.log(error));
       console.log(setArtists);
        
-
     /* / eslint-disable-next-line       console.log(setArtists);*/
   },[]);
 
