@@ -12,6 +12,7 @@ body {
 
 .h1 {
      display: table-cell;
+     align-content: center;
      text-align: center;
      text-decoration: double;
      background: #0dcbe4;
@@ -21,7 +22,7 @@ body {
     display: flex;
     border-style: outset;
     border: 5px rgba(10, 172, 20, 0.767);
-    background-color: #54a4c9;
+    background-color: #e63d67;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -61,8 +62,9 @@ body {
      /* Opcionalmente, puedes agregar estilos para cada elemento li aquí */
      border-style:dotted;
      border-color: black;
-     background-color: #07471b;
-        }
+     background-color: #470734;
+     
+}
    
 .cat-card-map{
      margin: 2px;
@@ -96,5 +98,5 @@ body {
    }
 
 .ttl-hm{
-     background: #e47712;
+     background: #12e4af;
 }

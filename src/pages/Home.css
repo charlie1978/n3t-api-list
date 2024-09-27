@@ -11,20 +11,16 @@ header {
 .text{
     align-self: center;
 }
-.img-per {
-    display: center;
-    align-self: center;
+.img-home {
+    display: grid;
+    align-items: start;
+    
 }
 .col-md {
     display: grid;
     align-items: start;
 }
-.img {
-    display: grid;
-    align-items: start;
-    display: center;
-    align-self: center;
-}
+
 .bdy {
     align-items: center;
     align-self: first baseline;
@@ -37,6 +33,7 @@ header {
 .img.text-img {
     scroll-margin-inline:inherit;
     align-self: center;
+    
 }
 .text-img {
     scroll-margin-inline:inherit;
