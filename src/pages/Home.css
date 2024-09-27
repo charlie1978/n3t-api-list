@@ -19,9 +19,11 @@ header {
     display: grid;
     align-items: start;
 }
-.img.text-img {
+.img {
     display: grid;
     align-items: start;
+    display: center;
+    align-self: center;
 }
 .bdy {
     align-items: center;

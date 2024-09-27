@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import "./character.css"
+import "./cats.css"
 
 function CatBreedsList() {
   const [breeds, setBreeds] = useState([]);
@@ -15,7 +15,7 @@ function CatBreedsList() {
   return (
     <div>
       <h1 className="ttl-hm">Razas de Gatos</h1>
-      <ul className="dog-card-grid">
+      <ul className="cat-card-grid">
         {breeds.map((breed) => (
           <li key={breed.id}>
             <Link to={`./Breeds/${breed.name}`}>

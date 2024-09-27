@@ -12,7 +12,7 @@ function Home() {
     <div className="bdy">
       <h1 className="ttl-hm">Bienvenido a la Página Inicial</h1>
       <p className="text" >T3N3M0$ 4CC3SO5 A 3ST@S API'S <br/>
-      <img className="text-img" src="./imagenes/indice.jpg" alt="Descripción de la imagen" />
+      <img className="img" src="./imagenes/indice.jpg" alt="Descripción de la imagen" />
     </p>
         <p className="btns">
           <button className="btnm">
