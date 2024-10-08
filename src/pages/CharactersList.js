@@ -3,8 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-
-// import './character.css'
+import './character.css'
 
 function CharactersList() {
   const [characters, setCharacters] = useState([]);
@@ -24,7 +23,7 @@ function CharactersList() {
           <li key={character.id}>
             <Link to={`/character/${character.id}`} target="_blank">
               <img src={character.image} alt={character.name} />
-              <p>{character.name}</p>
+              <p className="nme-char">{character.name}</p>
             </Link>
           </li>
         ))}

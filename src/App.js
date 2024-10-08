@@ -6,13 +6,13 @@ import Home from './pages/Home';
 import CharactersList from './pages/CharactersList';
 import CharacterDetails from './pages/CharacterDetails';
 import DogBreedsList from './pages/DogBreedsList';
-import BreedDetails from './pages/CatBreedDetails';
+import CatBreedDetails from './pages/CatBreedDetails';
 import CatInfoComponent from './pages/CatInfoComponent';
 import Cats from './pages/Cats'; // Agrega esta importación
 import ArtistList from './pages/ArtistList'; // Agrega esta importación
 import ArtistSongs from './pages/ArtistSongs';
 import ArtistDetails from './pages/ArtistDetails'; // Agrega esta importación
-import Marvel from './pages/Marvel'
+import Marvel from './pages/Marvel';
 // const apikey = 'AIzaSyASihGT9_uGTtA5b44KxU0R0uGD330yXp0';
 
 
@@ -26,7 +26,7 @@ function App() {
           <Route exact path="/characters" component={CharactersList} />
           <Route path="/character/:id" component={CharacterDetails} />
           <Route exact path="/DogBreedsList" component={DogBreedsList} />
-          <Route path="/BreedDetails/" component={BreedDetails} />
+          <Route path="/CatBreedDetails/" component={CatBreedDetails} />
           <Route path="/Cats" component={Cats} /> {/* Agrega esta ruta */}
           <Route path="/Marvel" component={Marvel} /> {/* Agrega esta ruta */}
           <Route path="/Component" component={CatInfoComponent} />  {/*Agrega esta ruta */}

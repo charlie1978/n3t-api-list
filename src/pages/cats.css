@@ -18,18 +18,7 @@ body {
      background: #0dcbe4;
  }
 
-.grid-char {
-    display: flex;
-    border-style: outset;
-    border: 5px rgba(10, 172, 20, 0.767);
-    background-color: #e63d67;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: stretch;
-    border-radius: 5px;
 
-}
 .grid-char img {
      /* Opcionalmente, puedes agregar estilos para cada elemento li aquí */
      border-style:groove;

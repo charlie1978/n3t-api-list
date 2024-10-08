@@ -1,5 +1,28 @@
-PROYECTO RELACIONADO CON APIS, PRESENTACION DE MI DESEMPAÑO BASICO EN DESARROLLO WEB
+PROYECTO RELACIONADO CON APIS, 
+PRESENTACION DE MI DESEMPAÑO BASICO EN DESARROLLO WEB
 
+FIRST STEPS WITH APIS
+( rick and morthy api
+ the cat api
+
+ the api dog
+
+doc.stripe.com/api
+
+api.nasa.gov
+
+polygon.io
+
+pokeapi.co
+
+developers.google.com/people
+
+www.shutterstock.com/es/developers
+serpapi.com
+
+fakestoreapi.com
+www.mapbox.com
+randomuser.me)
 
 # Getting Started with Create React App
 
