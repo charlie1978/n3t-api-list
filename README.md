@@ -34,8 +34,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 npm install @react-google-maps/api 
 npm install react-scripts@latest
-
-
+npm install npm@latest
+npm audit fix --force
 
 In the project directory, you can run:
 
