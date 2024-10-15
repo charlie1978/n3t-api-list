@@ -11,9 +11,13 @@ function Home() {
 
     <div className="bdy">
       <h1 className="ttl-hm">Bienvenido a la Página Inicial</h1>
-      <p className="text" >T3N3M0$ 4CC3SO5 A 3ST@S API'S <br/>
+      <section>
+      <p className="tex" >T3N3M0$ 4CC3SO5 A 3ST@S API'S <br/>
+      
       <img className="img-home" src="./imagenes/indice.jpg" alt="Descripción de la imagen" />
     </p>
+    </section>
+    <section>
         <p className="btns">
           <button className="btnm">
         {/*<Link to="/characters" target="_blank"> <Gi3DGlasses /> - Api Rick and Morthy - <Gi3DGlasses /> </Link>*/}
@@ -25,21 +29,17 @@ function Home() {
           <button className="btncat">
               <Link to="/Cats" target="_blank"> <GiCat /> - Api de Gatos - <GiCat /> </Link>
           </button>
-          <button className="btnmsk">
+          {/*<button className="btnmsk">
               <Link to="/artists" > <GiMusicalNotes /> - Api Musica - <GiMusicalNotes /> </Link>
           </button>
-
           <button className="btnmsk2">
               <Link to="/CatInfoComponent" > <GiMusicalNotes /> - Componente cats - <GiMusicalNotes /> </Link>
-          </button>
-          <button className="btnmsk2">
-              <Link to="/artistsList" > <GiMusicalNotes /> - Api Musica 2- <GiMusicalNotes /> </Link>
-          </button>
-
+          </button> */}
           <button className="btnmrvl">
               <Link to="/Marvel" target="_blank"> - Api Marvel - </Link>
           </button>
         </p>
+        </section>
         <div>
 
 

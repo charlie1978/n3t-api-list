@@ -64,7 +64,8 @@ body {
    .dog-card-grid li {
      /* Opcionalmente, puedes agregar estilos para cada elemento li aquí */
      border-style: double;
-     border-color: black;
+     border-color: rgb(92, 71, 3);
+     background-color: #c96bb9;
    }
    
 .dog-card-map{

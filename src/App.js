@@ -26,7 +26,7 @@ function App() {
           <Route exact path="/characters" component={CharactersList} />
           <Route path="/character/:id" component={CharacterDetails} />
           <Route exact path="/DogBreedsList" component={DogBreedsList} />
-          <Route path="/CatBreedDetails/" component={CatBreedDetails} />
+          <Route path="/Breeds/" component={CatBreedDetails} />
           <Route path="/Cats" component={Cats} /> {/* Agrega esta ruta */}
           <Route path="/Marvel" component={Marvel} /> {/* Agrega esta ruta */}
           <Route path="/Component" component={CatInfoComponent} />  {/*Agrega esta ruta */}

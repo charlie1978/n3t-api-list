@@ -18,7 +18,7 @@ function CatBreedsList() {
       <ul className="cat-card-grid">
         {breeds.map((breed) => (
           <li key={breed.id}>
-            <Link to={`./Breeds/${breed.name}`}>
+            <Link to={`./Breed/${breed.name}`}>
               {breed.name}
             </Link>
           </li>
