@@ -1,5 +1,5 @@
 .header{
-     background-color: aqua;
+     background-color: rgb(126, 10, 106);
      align-items: center;
      display: grid;
      text-align: center;
@@ -54,25 +54,6 @@ body {
      text-align: center;
      text-decoration-color: rgb(238, 255, 0);
      -moz-text-decoration-color: rgb(238, 255, 0);
-}
-.dog-card-grid {
-     display: grid;
-     grid-template-columns: repeat(5, 1fr); /* 3 columnas con el mismo tamaño */
-     gap: 20px; /* Espacio entre las celdas */
-   }
-   
-   .dog-card-grid li {
-     /* Opcionalmente, puedes agregar estilos para cada elemento li aquí */
-     border-style: double;
-     border-color: rgb(92, 71, 3);
-     background-color: #c96bb9;
-   }
-   
-.dog-card-map{
-     margin: 2px;
-     max-width: 5px;
-     border-color: darkorchid;
-
 }
 
 .grid-container {

@@ -1,0 +1,16 @@
+ 
+.dog-card-map{
+    margin: 2px;
+    max-width: 5px;
+    border-color: darkorchid;
+
+}
+.dog-card-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    background-color: #1c920c;
+    border-style:dotted;
+    border-color: black;
+    background-color: #470734;
+}
