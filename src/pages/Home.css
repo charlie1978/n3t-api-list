@@ -15,12 +15,13 @@ header {
     justify-content: space-evenly;
     
 }
-.ttl-hm {
-    
-    align-items: start;
+.ttl-hm{
+    background: #12e4af;
+    display: grid;
+    justify-content: center;
 }
 .img-home {
-
+    
     border-style: double;
     border-color: rgb(221, 197, 61);
     border-width: 15px;

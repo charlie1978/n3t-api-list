@@ -13,18 +13,8 @@ function DogBreedDetails() {
   }, [name]);
 
   if (!breedDetails) {
-    return <div>Cargando...
-      <h1>{breedDetails.name}</h1>                             {/* Aca hay algo que no esta funcionando */}
-      <img src={breedDetails.image} alt={breedDetails.name} /> {/* Aca hay algo que no esta funcionando */}
-      <p>{breedDetails.description}</p>                        {/* Aca hay algo que no esta funcionando */}
-      {/*   {breeds.map((breed) => (
-          <li key={breed.id} >
-            <Link className="dog-card-breed" to={`/breeds/${breed.name}`} target="_blank">
-              {/* <img src={breed.id} alt={breed.name} /> 
-              {breed.id.image} 
-              {breed.name}
-            </Link> */}
-    </div>;
+    return <div>Cargando...</div>;
+    
   }
 
   return (

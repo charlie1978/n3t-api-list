@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './pages/Home';
+import INICIO from './pages/Home';
 import CharactersList from './pages/CharactersList';
 import CharacterDetails from './pages/CharacterDetails';
 import DogBreedsList from './pages/DogBreedsList';
@@ -20,9 +20,9 @@ function App() {
   return (
     <Router>
       <div>
-        <Header /> <Link className="to-home" to="/"> </Link>{ /* Componente del encabezado */} 
+        <Header /> <Link className="to-INICIO" to="/"> </Link>{ /* Componente del encabezado */} 
         <main>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/" component={INICIO} />
           <Route exact path="/characters" component={CharactersList} />
           <Route path="/character/:id" component={CharacterDetails} />
           <Route exact path="/DogBreedsList" component={DogBreedsList} />
