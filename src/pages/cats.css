@@ -9,16 +9,6 @@ body {
      background: gray;
 }
 
-
-.h1 {
-     display: table-cell;
-     align-content: center;
-     text-align: center;
-     text-decoration: double;
-     background: #0dcbe4;
- }
-
-
 .grid-char img {
      /* Opcionalmente, puedes agregar estilos para cada elemento li aquí */
      border-style:groove;

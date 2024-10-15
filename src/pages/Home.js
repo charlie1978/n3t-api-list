@@ -13,10 +13,10 @@ function Home() {
       <h1 className="ttl-hm">Bienvenido a la Página Inicial</h1>
       <section>
       <p className="tex" >T3N3M0$ 4CC3SO5 A 3ST@S API'S <br/>
-      
       <img className="img-home" src="./imagenes/indice.jpg" alt="Descripción de la imagen" />
     </p>
     </section>
+    
     <section>
         <p className="btns">
           <button className="btnm">
