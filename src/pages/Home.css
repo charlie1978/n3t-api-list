@@ -16,14 +16,14 @@ header {
     
 }
 .ttl-hm {
-    display: grid;
+    
     align-items: start;
 }
 .img-home {
 
     border-style: double;
     border-color: rgb(7, 134, 7);
-    border-width: 5px;
+    border-width: 15px;
     
 }
 .col-md {
@@ -32,10 +32,10 @@ header {
 }
 
 .bdy {
-    align-items: center;
+    display: grid;
     align-self: first baseline;
     grid-auto-flow: dense;
-    background: rgb(4, 108, 139);
+    background: rgba(48, 83, 7, 0.712);
     border-width: 5px;
     border-color: blueviolet;
     
