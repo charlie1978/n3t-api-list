@@ -6,24 +6,11 @@ FIRST STEPS WITH APIS
  the cat api
 
  the api dog
+ 
+ ricky and morthy api
 
-doc.stripe.com/api
-
-api.nasa.gov
-
-polygon.io
-
-pokeapi.co
-
-developers.google.com/people
-
-www.shutterstock.com/es/developers
-serpapi.com
-
-fakestoreapi.com
-www.mapbox.com
-randomuser.me)
-
+ vagalume music api
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
